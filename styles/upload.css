@@ -697,6 +697,29 @@ footer a {
     .phrase {
         width: 200px;
     }
+    #flexFooter {
+        display: block;
+        justify-content: space-evenly;
+        color: white;
+        padding-left: 150px;
+    }
+    
+      footer h3 {
+        padding-top: 30px;
+        margin-bottom: 10px;
+      }
+    
+    
+      footer a {
+      text-decoration: none;
+      margin-top: 0px;
+    }
+    
+    footer {
+      
+      padding-bottom: 20px;
+      display: block;
+    }
 }
 
 
