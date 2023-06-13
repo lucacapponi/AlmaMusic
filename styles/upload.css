@@ -686,6 +686,9 @@ footer a {
 
 
 @media screen and (max-width:500px) {
+     body {
+        overflow-x: hidden;
+    }
     nav ul, li { 
         padding-inline: 15px;
     }
@@ -701,7 +704,7 @@ footer a {
         display: block;
         justify-content: space-evenly;
         color: white;
-        padding-left: 150px;
+        padding-left: 130px;
     }
     
       footer h3 {
