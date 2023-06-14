@@ -21,27 +21,12 @@ body {
 
 
 /*NAV*/
-.nav {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.nav ul, li {
-    display:inline-block;
+nav ul, li {
+    display: inline-block;
     list-style: none;
     padding-inline: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-
-.nav a {
-    justify-content: center;
-    text-align: center;
-    align-items: center;
 }
 
 #uploadnav {
@@ -171,17 +156,6 @@ font-weight: lighter;
     font-weight: lighter;
 }
 
-#box1 img {
-    margin-right: 156px;
-}
-
-#box3 img {
-    margin-right: 156px;
-}
-
-#box2 img {
-    margin-right: 156px;
-}
 
 
 #partecipa {
@@ -201,9 +175,9 @@ font-weight: lighter;
 #partecipa a {
     margin-top: 100px;
     border-radius: 5px;
-    border: 2px solid #000000;
+    border: 2px solid #AC3A31;
     cursor: pointer;
-    background-color: #000000;
+    background-color: #AC3A31;
     color: white;
     font-size: 20px;
     letter-spacing: 1.5px;
@@ -213,34 +187,7 @@ font-weight: lighter;
     padding-bottom: 10px;
 }
 
-/*FOOTER*/
-footer {
-    margin: 0 100px 0 100px;
-    background-color: #b8b8b8;
-    padding-bottom: 70px;
-    display: block;
-    
-  }
 
-  #flexFooter {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    color: white;
-}
-
-
-footer h3 {
-  padding-top: 60px;
-  margin-bottom: 20px;
-  
-}
-
-footer a {
-    text-decoration: none;
-    margin-top: 5px;
-}
 
 /*RESPONSIVE*/
 @media screen and (max-width:1300px) {
@@ -297,9 +244,6 @@ footer a {
     font-weight: lighter;
     }
 
-    footer {
-        margin: 0;
-    }
 
 }
 
@@ -654,41 +598,10 @@ footer a {
     margin-right:80px ;
     width: fit-content;
    }
-
-   footer {
-        font-size: 10px;
-      }
-    
-      #flexFooter {
-        display: block;
-        justify-content: space-evenly;
-        color: white;
-        padding-left: 200px;
-    }
-    
-      footer h3 {
-        padding-top: 30px;
-        margin-bottom: 10px;
-      }
-    
-    
-      footer a {
-      text-decoration: none;
-      margin-top: 0px;
-    }
-    
-    footer {
-      
-      padding-bottom: 20px;
-      display: block;
-    }
 }
 
 
 @media screen and (max-width:500px) {
-     body {
-        overflow-x: hidden;
-    }
     nav ul, li { 
         padding-inline: 15px;
     }
@@ -699,29 +612,6 @@ footer a {
 
     .phrase {
         width: 200px;
-    }
-    #flexFooter {
-        display: block;
-        justify-content: space-evenly;
-        color: white;
-        padding-left: 130px;
-    }
-    
-      footer h3 {
-        padding-top: 30px;
-        margin-bottom: 10px;
-      }
-    
-    
-      footer a {
-      text-decoration: none;
-      margin-top: 0px;
-    }
-    
-    footer {
-      
-      padding-bottom: 20px;
-      display: block;
     }
 }
 
