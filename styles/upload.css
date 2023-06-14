@@ -94,6 +94,7 @@ nav ul,a {
 #boxslogan {
     background-color: #b8b8b8;
     color: white;
+   height: 400px;
 }
 
 .phrase {
@@ -187,6 +188,30 @@ font-weight: lighter;
     padding-bottom: 10px;
 }
 
+/*FOOTER*/
+footer {
+    background-color: #AC3A31;
+    padding-bottom: 70px;
+    display: block;
+  }
+
+  #flexFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   color: white;
+}
+
+footer h3 {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    margin-top: 5px;
+}
 
 
 /*RESPONSIVE*/
